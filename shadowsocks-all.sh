@@ -524,7 +524,6 @@ elif [ "${selected}" == '4' ]; then
     "user":"nobody",
     "method":"${shadowsockscipher}",
     "fast_open":false,
-    "nameserver":"1.0.0.1",
     "mode":"tcp_and_udp",
     "plugin":"obfs-server",
     "plugin_opts":"obfs=${shadowsocklibev_obfs}"
