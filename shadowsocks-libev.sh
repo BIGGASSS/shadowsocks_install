@@ -414,7 +414,6 @@ config_shadowsocks(){
     "user":"nobody",
     "method":"${shadowsockscipher}",
     "fast_open":false,
-    "nameserver":"1.0.0.1",
     "mode":"tcp_and_udp"
 }
 EOF
